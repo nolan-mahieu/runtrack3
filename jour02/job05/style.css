@@ -1,0 +1,35 @@
+body 
+{
+    min-height: 4096px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    
+}
+
+footer
+{
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    bottom:0;
+    height: 20%;
+}
+
+#Progress_Status {
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 10vh;
+    left: 25vw;
+  }
+    
+#myprogressBar {
+    width: 1%;
+    height: 10px;
+    background-color: #000000;
+    text-align: center;
+    line-height: 32px;
+    color: black;
+  }
