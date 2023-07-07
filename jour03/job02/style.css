@@ -1,0 +1,11 @@
+.arc-en-ciel-image {
+    cursor: pointer;
+}
+
+.dragging {
+    opacity: 0.4;
+}
+
+.over {
+    border: 2px dashed black;
+}
